@@ -1,0 +1,19 @@
+20241216 v3.0.2.7
+1, optimize display frame rate
+
+20241212 v3.0.2.5
+1, add cursor implementation
+
+20241107 v3.0.1.4
+1, add explanatory document
+
+20240913 V3.0.1.3
+1, fix the code bug
+
+20240809 V3.0.1.2
+1, add supportable kernel(linux 6.6.18)
+
+20231121 V3.0.0.1
+1, initial release
+
+

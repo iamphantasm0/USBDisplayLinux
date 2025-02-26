@@ -1,0 +1,5 @@
+
+usb_hal_o += $(addprefix ../usb_hal/, $(USB_HAL))
+usbdisp_fb-y := usbdisp_fbdev.o $(usb_hal_o)
+obj-m := usbdisp_fb.o
+ccflags-y += -I$(HAL_PATH)

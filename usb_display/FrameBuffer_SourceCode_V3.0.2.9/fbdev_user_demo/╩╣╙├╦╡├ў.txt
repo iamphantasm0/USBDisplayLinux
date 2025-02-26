@@ -1,0 +1,11 @@
+1、依赖fb.ko
+2、fbdev接口支持情况：
+    a. 不支持read、write接口；
+    b. 支持的ioctl如下：FBIOGET_VSCREENINFO、FBIOPUT_VSCREENINFO、FBIOGET_FSCREENINFO、FBIOPAN_DISPLAY
+    c. 不检测hdmi的连接情况，无热插拔支持
+    d. 只支持double buffer。在FBIOPUT_VSCREENINFO时，yres_virtual必须是yres的两倍
+    e. 修改完显存需要使用FBIOPAN_DISPLAY刷新显示，否则一直显示最后一帧
+    f. 分辨率支持：最小：640x480，最大1920x1080
+    g. 增加获取HDMI接口连接状态的接口。命令定义在msfb.h里边
+3、应用程序demo指令示例：
+   sudo ./demo -d 1 -l 100 -s 1920x1080 

@@ -1,0 +1,10 @@
+1,编译
+--本机编译直接执行make即可
+
+2,加载
+--执行insmod ./fbdev/usbdisp_fb.ko
+
+3,查看驱动是否加载
+--执行lsmod | grep usbdisp_fb
+
+:fbdev_user_demo内容为使用fbdev设备的示例应用程序

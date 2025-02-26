@@ -1,0 +1,15 @@
+﻿1,编译
+  到代码根目录下执行make指令即可。
+
+2,加载
+  先加载usbdisp_drm模块，再加载usbdisp_usb模块，指令如下：
+  insmod ./drm/usbdisp_drm.ko
+  insmod ./drm/usbdisp_usb.ko
+  驱动模块加载完成后，需重新启动xserver，指令如下：
+  systemctl restart display-manager
+
+3,查看驱动加载结果
+  执行lsmod | grep usbdisp查看驱动是否已加载到系统。
+
+支持linux kernel 4.19及以上版本；
+需要基于X11的桌面环境运行。
