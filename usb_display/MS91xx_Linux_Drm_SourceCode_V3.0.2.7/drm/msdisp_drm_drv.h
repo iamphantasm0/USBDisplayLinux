@@ -16,6 +16,7 @@
 #ifndef __MSDISP_DRM_DRV_H__
 #define __MSDISP_DRM_DRV_H__
 
+#include <linux/platform_device.h>  /* For struct platform_device */
 #include <linux/module.h>
 #include <linux/types.h>
 #include <linux/kfifo.h>
@@ -31,7 +32,10 @@
 #else
 #include <drm/drmP.h>
 #endif
-#if KERNEL_VERSION(5, 15, 0) <= LINUX_VERSION_CODE
+#if KERNEL_VERSION(6, 0, 0) <= LINUX_VERSION_CODE
+// For kernel 6.0 and newer, we don't need either legacy or irq headers
+// The functionality we need is now in other headers we already include
+#elif KERNEL_VERSION(5, 15, 0) <= LINUX_VERSION_CODE
 #include <drm/drm_legacy.h>
 #else
 #include <drm/drm_irq.h>
@@ -132,7 +136,7 @@ struct msdisp_drm_device {
 
 #define to_msdisp_drm(x) container_of(x, struct msdisp_drm_device, drm)
 
-int msdisp_platform_device_remove(struct platform_device *pdev);
+void msdisp_platform_device_remove(struct platform_device *pdev);
 
 struct drm_framebuffer *msdisp_drm_fb_user_fb_create(
 				struct drm_device *dev,

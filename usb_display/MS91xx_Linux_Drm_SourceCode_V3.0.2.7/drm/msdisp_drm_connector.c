@@ -185,8 +185,12 @@ msdisp_drm_detect(struct drm_connector *connector, __always_unused bool force)
         if (msdisp_connector->edid) {
             kfree(msdisp_connector->edid);
         }
-
-        msdisp_connector->edid = drm_do_get_edid(connector, msdisp_drm_get_edid_block, pipeline);
+		#if KERNEL_VERSION(6, 0, 0) <= LINUX_VERSION_CODE
+		/* For newer kernels, use drm_get_edid instead */
+		msdisp_connector->edid = drm_get_edid(connector, msdisp_drm_get_edid_block);
+		#else
+		msdisp_connector->edid = drm_do_get_edid(connector, msdisp_drm_get_edid_block, pipeline);
+		#endif
 	    if (!msdisp_connector->edid) {
             DRM_ERROR("get edid failed!\n");
 		    return connector_status_disconnected;

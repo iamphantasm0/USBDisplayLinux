@@ -13,6 +13,7 @@
  */
  
 #include <linux/slab.h>
+#include <linux/scatterlist.h>  /* For struct sg_table */
 #include <linux/usb.h>
 #include <linux/kfifo.h>
 

@@ -6,11 +6,10 @@ obj-m := usbdisp_drm.o usbdisp_usb.o
 
 ccflags-y := -isystem include/drm -I$(HAL_PATH) $(CFLAGS) $(EL8FLAG) $(RPIFLAG)
 CFLAGS_usbdisp_usb.o += -I$(HAL_PATH)
-
-# Disable error warnings
+ccflags-y += -Wno-error=incompatible-pointer-types -Wno-error=missing-prototypes
 ccflags-y += -Wno-error
-ccflags-y += -Wno-error=incompatible-pointer-types
-ccflags-y += -Wno-error=missing-prototypes
 ccflags-y += -Wno-incompatible-pointer-types
 ccflags-y += -Wno-missing-prototypes
-ccflags-y += -Wno-error=implicit-function-declaration
+ccflags-y += -Wno-error
+ccflags-y += -Wno-incompatible-pointer-types
+ccflags-y += -Wno-missing-prototypes

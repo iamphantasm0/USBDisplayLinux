@@ -14,6 +14,7 @@
 
 
 #include <linux/types.h>
+#include "ms9132_hal.h"
 #include <linux/usb.h>
 #include <linux/hid.h>
 #include <linux/printk.h>

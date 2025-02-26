@@ -28,7 +28,7 @@ struct platform_device *msdisp_platform_dev_create(struct platform_device_info *
 void msdisp_platform_dev_destroy(struct platform_device *dev);
 
 int msdisp_platform_device_probe(struct platform_device *pdev);
-void msdisp_platform_device_remove(struct platform_device *pdev);
+int msdisp_platform_device_remove(struct platform_device *pdev);
 
 #endif
 

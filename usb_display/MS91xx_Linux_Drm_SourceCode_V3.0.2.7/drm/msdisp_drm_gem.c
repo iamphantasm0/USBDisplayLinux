@@ -14,7 +14,9 @@
 
 
 #include <linux/sched.h>
+#include <linux/vmalloc.h>  /* For vmap and vunmap functions */
 #include <linux/version.h>
+#include <linux/vmalloc.h>  /* For vmap and vunmap functions */
 #if KERNEL_VERSION(5, 18, 0) <= LINUX_VERSION_CODE
 #include <linux/mm.h>
 #endif

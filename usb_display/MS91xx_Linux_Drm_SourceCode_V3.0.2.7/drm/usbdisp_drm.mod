@@ -1,0 +1,12 @@
+/home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_plat_drv.o
+/home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_plat_dev.o
+/home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_drv.o
+/home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_modeset.o
+/home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_gem.o
+/home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_fb.o
+/home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_encoder.o
+/home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_connector.o
+/home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_interface.o
+/home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_sysfs.o
+/home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_common_util.o
+/home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_mode.o
