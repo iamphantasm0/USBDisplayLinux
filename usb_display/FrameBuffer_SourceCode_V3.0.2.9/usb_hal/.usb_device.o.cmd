@@ -1,8 +1,8 @@
-savedcmd_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o := gcc-13 -Wp,-MMD,/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/.ms9132_hal.o.d -nostdinc -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -fno-jump-tables -mharden-sls=all -fpatchable-function-entry=16,16 -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fzero-call-used-regs=used-gpr -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -falign-functions=16 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -Wall -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=1024 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-overflow -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wextra -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -g -gdwarf-5 -isystem include/drm -I/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/usb_hal -Wno-error -Wno-error=incompatible-pointer-types -Wno-error=missing-prototypes -Wno-incompatible-pointer-types -Wno-missing-prototypes -Wno-error=implicit-function-declaration  -fsanitize=bounds-strict -fsanitize=shift -fsanitize=bool -fsanitize=enum  -fsanitize=signed-integer-overflow  -DMODULE  -DKBUILD_BASENAME='"ms9132_hal"' -DKBUILD_MODNAME='"usbdisp_usb"' -D__KBUILD_MODNAME=kmod_usbdisp_usb -c -o /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.c   ; ./tools/objtool/objtool --hacks=jump_label --hacks=noinstr --hacks=skylake --retpoline --rethunk --sls --stackval --static-call --uaccess --prefix=16   --module /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o
+savedcmd_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_device.o := gcc-13 -Wp,-MMD,/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/.usb_device.o.d -nostdinc -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -fno-jump-tables -mharden-sls=all -fpatchable-function-entry=16,16 -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fzero-call-used-regs=used-gpr -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -falign-functions=16 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -Wall -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=1024 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-overflow -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wextra -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -g -gdwarf-5 -I/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/usb_hal  -fsanitize=bounds-strict -fsanitize=shift -fsanitize=bool -fsanitize=enum  -fsanitize=signed-integer-overflow  -DMODULE  -DKBUILD_BASENAME='"usb_device"' -DKBUILD_MODNAME='"usbdisp_fb"' -D__KBUILD_MODNAME=kmod_usbdisp_fb -c -o /home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_device.o /home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_device.c   ; ./tools/objtool/objtool --hacks=jump_label --hacks=noinstr --hacks=skylake --retpoline --rethunk --sls --stackval --static-call --uaccess --prefix=16   --module /home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_device.o
 
-source_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o := /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.c
+source_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_device.o := /home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_device.c
 
-deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o := \
+deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_device.o := \
   include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
   include/linux/kconfig.h \
@@ -50,7 +50,6 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
     $(wildcard include/config/X86_32) \
   arch/x86/include/uapi/asm/posix_types_64.h \
   include/uapi/asm-generic/posix_types.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.h \
   include/linux/usb.h \
     $(wildcard include/config/USB_MON) \
     $(wildcard include/config/ACPI) \
@@ -1314,79 +1313,18 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
   include/linux/bpf_types.h \
     $(wildcard include/config/NETFILTER_BPF_LINK) \
     $(wildcard include/config/XDP_SOCKETS) \
-  include/drm/drm_modes.h \
-  include/linux/hdmi.h \
-  include/drm/drm_mode_object.h \
-  include/drm/drm_lease.h \
-  include/drm/drm_connector.h \
-  include/drm/drm_util.h \
-    $(wildcard include/config/DRM_EXPORT_FOR_TESTS) \
-  include/linux/kgdb.h \
-    $(wildcard include/config/HAVE_ARCH_KGDB) \
-    $(wildcard include/config/KGDB) \
-    $(wildcard include/config/SERIAL_KGDB_NMI) \
-    $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
-  include/linux/kprobes.h \
-    $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
-    $(wildcard include/config/KPROBES_SANITY_TEST) \
-    $(wildcard include/config/OPTPROBES) \
-    $(wildcard include/config/KPROBES_ON_FTRACE) \
-  include/linux/ftrace.h \
-    $(wildcard include/config/HAVE_FUNCTION_GRAPH_RETVAL) \
-    $(wildcard include/config/FUNCTION_TRACER) \
-    $(wildcard include/config/DYNAMIC_FTRACE) \
-    $(wildcard include/config/HAVE_DYNAMIC_FTRACE_WITH_ARGS) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_REGS) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_ARGS) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_DIRECT_CALLS) \
-    $(wildcard include/config/STACK_TRACER) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_CALL_OPS) \
-    $(wildcard include/config/FUNCTION_GRAPH_RETVAL) \
-    $(wildcard include/config/FUNCTION_PROFILER) \
-    $(wildcard include/config/FTRACE_SYSCALLS) \
-  include/linux/trace_recursion.h \
-    $(wildcard include/config/FTRACE_RECORD_RECURSION) \
-    $(wildcard include/config/FTRACE_VALIDATE_RCU_IS_WATCHING) \
-  include/linux/trace_clock.h \
-  arch/x86/include/asm/trace_clock.h \
-  include/linux/ptrace.h \
-  include/linux/pid_namespace.h \
-    $(wildcard include/config/MEMFD_CREATE) \
-    $(wildcard include/config/PID_NS) \
-  include/uapi/linux/ptrace.h \
-  include/linux/seccomp.h \
-    $(wildcard include/config/HAVE_ARCH_SECCOMP_FILTER) \
-    $(wildcard include/config/SECCOMP_FILTER) \
-    $(wildcard include/config/CHECKPOINT_RESTORE) \
-    $(wildcard include/config/SECCOMP_CACHE_DEBUG) \
-  include/uapi/linux/seccomp.h \
-  arch/x86/include/asm/seccomp.h \
-  include/asm-generic/seccomp.h \
-  arch/x86/include/asm/ftrace.h \
-    $(wildcard include/config/HAVE_FENTRY) \
-  include/linux/objpool.h \
-  include/linux/rethook.h \
-  arch/x86/include/asm/kprobes.h \
-  include/asm-generic/kprobes.h \
-  arch/x86/include/asm/insn.h \
-  arch/x86/include/asm/inat.h \
-  arch/x86/include/asm/inat_types.h \
-  arch/x86/include/asm/kgdb.h \
-  include/drm/drm_property.h \
-  include/uapi/drm/drm_mode.h \
+  include/drm/drm_fourcc.h \
+  include/uapi/drm/drm_fourcc.h \
   include/uapi/drm/drm.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/usb_hal/usb_hal_chip.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/usb_hal/usb_hal_edid.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/usb_hal/ms9132.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/usb_hal/hal_adaptor.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/usb_hal/ms9132_hid.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_usb_interface.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_usb_drv.h \
-  include/generated/uapi/linux/version.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/usb_hal/usb_hal_interface.h \
+  include/uapi/drm/drm_mode.h \
+  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_hal_chip.h \
+  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_device.h \
+  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/hal_adaptor.h \
+  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_device_hid.h \
+  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_hal_event.h \
 
-/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o: $(deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o)
+/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_device.o: $(deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_device.o)
 
-$(deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o):
+$(deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_device.o):
 
-/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o: $(wildcard ./tools/objtool/objtool)
+/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_device.o: $(wildcard ./tools/objtool/objtool)

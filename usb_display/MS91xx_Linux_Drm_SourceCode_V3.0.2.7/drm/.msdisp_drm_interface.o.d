@@ -1,5 +1,5 @@
 msdisp_drm_interface.o: \
- /home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_interface.c \
+ /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_interface.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
@@ -324,14 +324,14 @@ msdisp_drm_interface.o: \
  include/drm/drm_encoder.h include/uapi/drm/drm_mode.h \
  include/drm/drm_modeset_helper.h include/drm/drm_atomic_state_helper.h \
  include/linux/platform_device.h \
- /home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_drv.h \
+ /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_drv.h \
  include/linux/kfifo.h include/drm/drm_fourcc.h \
  include/uapi/drm/drm_fourcc.h include/drm/drm_framebuffer.h \
  include/drm/drm_crtc_helper.h include/drm/drm_gem.h \
  include/linux/dma-resv.h include/linux/dma-fence.h \
  include/drm/drm_vma_manager.h include/drm/drm_mm.h \
  include/drm/drm_print.h include/uapi/drm/drm.h \
- /home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_plat_drv.h \
- /home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_interface.h \
- /home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_event.h \
- /home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_usb_interface.h
+ /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_plat_drv.h \
+ /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_interface.h \
+ /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_drm_event.h \
+ /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_usb_interface.h

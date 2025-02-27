@@ -288,7 +288,7 @@ static const struct bin_attribute edid_attr = {
 	.read = edid_show,
 };
 
-static const u32 msfb_info_flags = FBINFO_DEFAULT |	FBINFO_MISC_ALWAYS_SETPAR;
+static const u32 msfb_info_flags = FBINFO_MISC_ALWAYS_SETPAR;
 
 static unsigned int msfb_bitfield_to_fourcc(struct fb_var_screeninfo *var)
 {

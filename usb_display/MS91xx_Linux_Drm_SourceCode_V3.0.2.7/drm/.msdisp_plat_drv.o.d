@@ -1,5 +1,5 @@
 msdisp_plat_drv.o: \
- /home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_plat_drv.c \
+ /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_plat_drv.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
@@ -297,5 +297,5 @@ msdisp_plat_drv.o: \
  arch/x86/include/asm/hardirq.h arch/x86/include/asm/irq.h \
  arch/x86/include/asm/irq_vectors.h arch/x86/include/asm/sections.h \
  include/asm-generic/sections.h include/linux/pm_runtime.h \
- /home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_plat_drv.h \
- /home/iamphantasm0/dev/USBDisplay/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_plat_dev.h
+ /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_plat_drv.h \
+ /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_plat_dev.h

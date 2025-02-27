@@ -19,6 +19,7 @@
 #include <linux/mutex.h>
 #include <linux/kthread.h>
 #include <linux/semaphore.h>
+#include <linux/scatterlist.h>
 
 #include "usb_hal_interface.h"
 

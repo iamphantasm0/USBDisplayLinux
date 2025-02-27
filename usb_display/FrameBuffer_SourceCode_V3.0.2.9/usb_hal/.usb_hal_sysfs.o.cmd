@@ -1,8 +1,8 @@
-savedcmd_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o := gcc-13 -Wp,-MMD,/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/.ms9132_hal.o.d -nostdinc -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -fno-jump-tables -mharden-sls=all -fpatchable-function-entry=16,16 -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fzero-call-used-regs=used-gpr -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -falign-functions=16 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -Wall -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=1024 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-overflow -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wextra -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -g -gdwarf-5 -isystem include/drm -I/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/usb_hal -Wno-error -Wno-error=incompatible-pointer-types -Wno-error=missing-prototypes -Wno-incompatible-pointer-types -Wno-missing-prototypes -Wno-error=implicit-function-declaration  -fsanitize=bounds-strict -fsanitize=shift -fsanitize=bool -fsanitize=enum  -fsanitize=signed-integer-overflow  -DMODULE  -DKBUILD_BASENAME='"ms9132_hal"' -DKBUILD_MODNAME='"usbdisp_usb"' -D__KBUILD_MODNAME=kmod_usbdisp_usb -c -o /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.c   ; ./tools/objtool/objtool --hacks=jump_label --hacks=noinstr --hacks=skylake --retpoline --rethunk --sls --stackval --static-call --uaccess --prefix=16   --module /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o
+savedcmd_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_hal_sysfs.o := gcc-13 -Wp,-MMD,/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/.usb_hal_sysfs.o.d -nostdinc -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -fno-jump-tables -mharden-sls=all -fpatchable-function-entry=16,16 -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fzero-call-used-regs=used-gpr -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -falign-functions=16 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -Wall -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=1024 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-overflow -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wextra -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -g -gdwarf-5 -I/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/usb_hal  -fsanitize=bounds-strict -fsanitize=shift -fsanitize=bool -fsanitize=enum  -fsanitize=signed-integer-overflow  -DMODULE  -DKBUILD_BASENAME='"usb_hal_sysfs"' -DKBUILD_MODNAME='"usbdisp_fb"' -D__KBUILD_MODNAME=kmod_usbdisp_fb -c -o /home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_hal_sysfs.o /home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_hal_sysfs.c   ; ./tools/objtool/objtool --hacks=jump_label --hacks=noinstr --hacks=skylake --retpoline --rethunk --sls --stackval --static-call --uaccess --prefix=16   --module /home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_hal_sysfs.o
 
-source_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o := /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.c
+source_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_hal_sysfs.o := /home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_hal_sysfs.c
 
-deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o := \
+deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_hal_sysfs.o := \
   include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
   include/linux/kconfig.h \
@@ -50,21 +50,31 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
     $(wildcard include/config/X86_32) \
   arch/x86/include/uapi/asm/posix_types_64.h \
   include/uapi/asm-generic/posix_types.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.h \
-  include/linux/usb.h \
-    $(wildcard include/config/USB_MON) \
-    $(wildcard include/config/ACPI) \
-    $(wildcard include/config/PM) \
-    $(wildcard include/config/USB_LED_TRIG) \
-  include/linux/mod_devicetable.h \
-  include/uapi/linux/mei.h \
-  include/uapi/linux/mei_uuid.h \
-  include/linux/uuid.h \
-  include/linux/string.h \
-    $(wildcard include/config/BINARY_PRINTF) \
-    $(wildcard include/config/FORTIFY_SOURCE) \
-  include/linux/args.h \
-  include/linux/array_size.h \
+  include/generated/uapi/linux/version.h \
+  include/linux/device.h \
+    $(wildcard include/config/HAS_IOMEM) \
+    $(wildcard include/config/GENERIC_MSI_IRQ) \
+    $(wildcard include/config/ENERGY_MODEL) \
+    $(wildcard include/config/PINCTRL) \
+    $(wildcard include/config/DMA_OPS) \
+    $(wildcard include/config/DMA_DECLARE_COHERENT) \
+    $(wildcard include/config/DMA_CMA) \
+    $(wildcard include/config/SWIOTLB) \
+    $(wildcard include/config/SWIOTLB_DYNAMIC) \
+    $(wildcard include/config/NUMA) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_DEVICE) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU_ALL) \
+    $(wildcard include/config/DMA_OPS_BYPASS) \
+    $(wildcard include/config/DMA_NEED_SYNC) \
+    $(wildcard include/config/PM_SLEEP) \
+    $(wildcard include/config/LOCKDEP) \
+    $(wildcard include/config/OF) \
+    $(wildcard include/config/DEVTMPFS) \
+  include/linux/dev_printk.h \
+    $(wildcard include/config/PRINTK) \
+    $(wildcard include/config/DYNAMIC_DEBUG) \
+    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
   include/linux/compiler.h \
     $(wildcard include/config/TRACE_BRANCH_PROFILING) \
     $(wildcard include/config/PROFILE_ALL_BRANCHES) \
@@ -78,40 +88,28 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
     $(wildcard include/config/KCSAN) \
     $(wildcard include/config/KCSAN_WEAK_MEMORY) \
     $(wildcard include/config/KCSAN_IGNORE_ATOMICS) \
-  include/linux/err.h \
-  arch/x86/include/generated/uapi/asm/errno.h \
-  include/uapi/asm-generic/errno.h \
-  include/uapi/asm-generic/errno-base.h \
-  include/linux/errno.h \
-  include/uapi/linux/errno.h \
-  include/linux/overflow.h \
-  include/linux/limits.h \
-  include/uapi/linux/limits.h \
-  include/vdso/limits.h \
+  include/linux/ratelimit.h \
+  include/linux/ratelimit_types.h \
+  include/linux/bits.h \
   include/linux/const.h \
   include/vdso/const.h \
   include/uapi/linux/const.h \
-  include/linux/stdarg.h \
-  include/uapi/linux/string.h \
-  arch/x86/include/asm/string.h \
-  arch/x86/include/asm/string_64.h \
-    $(wildcard include/config/KMSAN) \
-    $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/JUMP_LABEL) \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/x86/include/asm/jump_label.h \
-    $(wildcard include/config/HAVE_JUMP_LABEL_HACK) \
-  arch/x86/include/asm/asm.h \
-    $(wildcard include/config/KPROBES) \
-  include/linux/stringify.h \
-  arch/x86/include/asm/extable_fixup_types.h \
-  arch/x86/include/asm/nops.h \
-  include/linux/fortify-string.h \
-    $(wildcard include/config/CC_HAS_KASAN_MEMINTRINSIC_PREFIX) \
-    $(wildcard include/config/GENERIC_ENTRY) \
-  include/linux/bitfield.h \
+  include/vdso/bits.h \
+  include/uapi/linux/bits.h \
   include/linux/build_bug.h \
+  include/uapi/linux/param.h \
+  arch/x86/include/generated/uapi/asm/param.h \
+  include/asm-generic/param.h \
+    $(wildcard include/config/HZ) \
+  include/uapi/asm-generic/param.h \
+  include/linux/spinlock_types_raw.h \
+    $(wildcard include/config/SMP) \
+    $(wildcard include/config/DEBUG_SPINLOCK) \
+    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
+  arch/x86/include/asm/spinlock_types.h \
+  include/asm-generic/qspinlock_types.h \
+    $(wildcard include/config/NR_CPUS) \
+  include/asm-generic/qrwlock_types.h \
   arch/x86/include/uapi/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/uapi/linux/byteorder/little_endian.h \
@@ -119,80 +117,9 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
   include/uapi/linux/swab.h \
   arch/x86/include/uapi/asm/swab.h \
   include/linux/byteorder/generic.h \
-  include/linux/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/x86/include/asm/bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
-  include/linux/objtool.h \
-    $(wildcard include/config/FRAME_POINTER) \
-    $(wildcard include/config/MITIGATION_UNRET_ENTRY) \
-    $(wildcard include/config/MITIGATION_SRSO) \
-  include/linux/objtool_types.h \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/BUG) \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-    $(wildcard include/config/SMP) \
-  include/linux/once_lite.h \
-  include/linux/panic.h \
-    $(wildcard include/config/PANIC_TIMEOUT) \
-  include/linux/printk.h \
-    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
-    $(wildcard include/config/EARLY_PRINTK) \
-    $(wildcard include/config/PRINTK) \
-    $(wildcard include/config/PRINTK_INDEX) \
-    $(wildcard include/config/DYNAMIC_DEBUG) \
-    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
-  include/linux/init.h \
-    $(wildcard include/config/MEMORY_HOTPLUG) \
-    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
-  include/linux/kern_levels.h \
-  include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  include/linux/export.h \
-    $(wildcard include/config/MODVERSIONS) \
-  arch/x86/include/asm/linkage.h \
-    $(wildcard include/config/CALL_PADDING) \
-    $(wildcard include/config/MITIGATION_RETHUNK) \
-    $(wildcard include/config/MITIGATION_SLS) \
-    $(wildcard include/config/FUNCTION_PADDING_BYTES) \
-    $(wildcard include/config/UML) \
-  arch/x86/include/asm/ibt.h \
-    $(wildcard include/config/X86_KERNEL_IBT) \
-  include/linux/ratelimit_types.h \
-  include/linux/bits.h \
-  include/vdso/bits.h \
-  include/uapi/linux/bits.h \
-  include/uapi/linux/param.h \
-  arch/x86/include/generated/uapi/asm/param.h \
-  include/asm-generic/param.h \
-    $(wildcard include/config/HZ) \
-  include/uapi/asm-generic/param.h \
-  include/linux/spinlock_types_raw.h \
-    $(wildcard include/config/DEBUG_SPINLOCK) \
-    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
-  arch/x86/include/asm/spinlock_types.h \
-  include/asm-generic/qspinlock_types.h \
-    $(wildcard include/config/NR_CPUS) \
-  include/asm-generic/qrwlock_types.h \
   include/linux/lockdep_types.h \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
-    $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
-  include/linux/usb/ch9.h \
-    $(wildcard include/config/TRACING) \
-  include/uapi/linux/usb/ch9.h \
-  include/linux/delay.h \
-  include/linux/math.h \
-  arch/x86/include/asm/div64.h \
-  include/asm-generic/div64.h \
-  include/uapi/linux/kernel.h \
-  include/uapi/linux/sysinfo.h \
   include/linux/sched.h \
     $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
     $(wildcard include/config/PREEMPT_RT) \
@@ -249,14 +176,15 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
     $(wildcard include/config/COMPAT) \
     $(wildcard include/config/PERF_EVENTS) \
     $(wildcard include/config/DEBUG_PREEMPT) \
-    $(wildcard include/config/NUMA) \
     $(wildcard include/config/NUMA_BALANCING) \
     $(wildcard include/config/RSEQ) \
     $(wildcard include/config/SCHED_MM_CID) \
     $(wildcard include/config/FAULT_INJECTION) \
     $(wildcard include/config/LATENCYTOP) \
+    $(wildcard include/config/KMSAN) \
     $(wildcard include/config/KUNIT) \
     $(wildcard include/config/FUNCTION_GRAPH_TRACER) \
+    $(wildcard include/config/TRACING) \
     $(wildcard include/config/MEMCG) \
     $(wildcard include/config/UPROBES) \
     $(wildcard include/config/BCACHE) \
@@ -283,13 +211,31 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
     $(wildcard include/config/USE_X86_SEG_SUPPORT) \
   include/linux/cache.h \
     $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
+  include/uapi/linux/kernel.h \
+  include/uapi/linux/sysinfo.h \
   arch/x86/include/asm/cache.h \
     $(wildcard include/config/X86_L1_CACHE_SHIFT) \
     $(wildcard include/config/X86_INTERNODE_CACHE_SHIFT) \
     $(wildcard include/config/X86_VSMP) \
+  include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  include/linux/stringify.h \
+  include/linux/export.h \
+    $(wildcard include/config/MODVERSIONS) \
+  arch/x86/include/asm/linkage.h \
+    $(wildcard include/config/CALL_PADDING) \
+    $(wildcard include/config/MITIGATION_RETHUNK) \
+    $(wildcard include/config/MITIGATION_SLS) \
+    $(wildcard include/config/FUNCTION_PADDING_BYTES) \
+    $(wildcard include/config/UML) \
+  arch/x86/include/asm/ibt.h \
+    $(wildcard include/config/X86_KERNEL_IBT) \
   arch/x86/include/asm/percpu.h \
     $(wildcard include/config/X86_64_SMP) \
     $(wildcard include/config/CC_HAS_NAMED_AS) \
+  arch/x86/include/asm/asm.h \
+    $(wildcard include/config/KPROBES) \
+  arch/x86/include/asm/extable_fixup_types.h \
   include/asm-generic/percpu.h \
     $(wildcard include/config/HAVE_SETUP_PER_CPU_AREA) \
   include/linux/threads.h \
@@ -312,6 +258,9 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
     $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
   arch/x86/include/asm/mem_encrypt.h \
     $(wildcard include/config/X86_MEM_ENCRYPT) \
+  include/linux/init.h \
+    $(wildcard include/config/MEMORY_HOTPLUG) \
+    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
   include/linux/cc_platform.h \
     $(wildcard include/config/ARCH_HAS_CC_PLATFORM) \
   arch/x86/include/asm/math_emu.h \
@@ -355,8 +304,20 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
     $(wildcard include/config/NUMA_KEEP_MEMINFO) \
   arch/x86/include/asm/nospec-branch.h \
     $(wildcard include/config/CALL_THUNKS_DEBUG) \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
+    $(wildcard include/config/MITIGATION_UNRET_ENTRY) \
+    $(wildcard include/config/MITIGATION_SRSO) \
     $(wildcard include/config/MITIGATION_IBPB_ENTRY) \
   include/linux/static_key.h \
+  include/linux/jump_label.h \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/x86/include/asm/jump_label.h \
+    $(wildcard include/config/HAVE_JUMP_LABEL_HACK) \
+  arch/x86/include/asm/nops.h \
+  include/linux/objtool.h \
+    $(wildcard include/config/FRAME_POINTER) \
+  include/linux/objtool_types.h \
   arch/x86/include/asm/cpufeatures.h \
   arch/x86/include/asm/required-features.h \
     $(wildcard include/config/X86_MINIMUM_CPU_FAMILY) \
@@ -383,9 +344,33 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
   arch/x86/include/uapi/asm/ldt.h \
   arch/x86/include/uapi/asm/sigcontext.h \
   arch/x86/include/asm/cpuid.h \
+  arch/x86/include/asm/string.h \
+  arch/x86/include/asm/string_64.h \
+    $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
   arch/x86/include/asm/paravirt.h \
     $(wildcard include/config/PARAVIRT_SPINLOCKS) \
     $(wildcard include/config/DEBUG_ENTRY) \
+  include/linux/bug.h \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  arch/x86/include/asm/bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  include/linux/instrumentation.h \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/BUG) \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
+  include/linux/once_lite.h \
+  include/linux/panic.h \
+    $(wildcard include/config/PANIC_TIMEOUT) \
+  include/linux/printk.h \
+    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
+    $(wildcard include/config/EARLY_PRINTK) \
+    $(wildcard include/config/PRINTK_INDEX) \
+  include/linux/stdarg.h \
+  include/linux/kern_levels.h \
+  include/linux/dynamic_debug.h \
   include/linux/cpumask.h \
     $(wildcard include/config/FORCE_NR_CPUS) \
     $(wildcard include/config/HOTPLUG_CPU) \
@@ -398,6 +383,10 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
     $(wildcard include/config/PROVE_LOCKING) \
     $(wildcard include/config/FTRACE_MCOUNT_RECORD) \
   include/linux/align.h \
+  include/linux/array_size.h \
+  include/linux/limits.h \
+  include/uapi/linux/limits.h \
+  include/vdso/limits.h \
   include/linux/container_of.h \
   include/linux/bitops.h \
   include/linux/typecheck.h \
@@ -406,6 +395,7 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
   include/asm-generic/barrier.h \
   arch/x86/include/asm/bitops.h \
   arch/x86/include/asm/rmwcc.h \
+  include/linux/args.h \
   include/asm-generic/bitops/sched.h \
   arch/x86/include/asm/arch_hweight.h \
   include/asm-generic/bitops/const_hweight.h \
@@ -422,6 +412,9 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
   include/linux/log2.h \
     $(wildcard include/config/ARCH_HAS_ILOG2_U32) \
     $(wildcard include/config/ARCH_HAS_ILOG2_U64) \
+  include/linux/math.h \
+  arch/x86/include/asm/div64.h \
+  include/asm-generic/div64.h \
   include/linux/minmax.h \
   include/linux/sprintf.h \
   include/linux/static_call_types.h \
@@ -430,7 +423,22 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
   include/linux/instruction_pointer.h \
   include/linux/wordpart.h \
   include/linux/bitmap.h \
+  include/linux/errno.h \
+  include/uapi/linux/errno.h \
+  arch/x86/include/generated/uapi/asm/errno.h \
+  include/uapi/asm-generic/errno.h \
+  include/uapi/asm-generic/errno-base.h \
   include/linux/find.h \
+  include/linux/string.h \
+    $(wildcard include/config/BINARY_PRINTF) \
+    $(wildcard include/config/FORTIFY_SOURCE) \
+  include/linux/err.h \
+  include/linux/overflow.h \
+  include/uapi/linux/string.h \
+  include/linux/fortify-string.h \
+    $(wildcard include/config/CC_HAS_KASAN_MEMINTRINSIC_PREFIX) \
+    $(wildcard include/config/GENERIC_ENTRY) \
+  include/linux/bitfield.h \
   include/linux/bitmap-str.h \
   include/linux/cpumask_types.h \
   include/linux/atomic.h \
@@ -605,20 +613,19 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
     $(wildcard include/config/INLINE_WRITE_UNLOCK_IRQ) \
     $(wildcard include/config/INLINE_READ_UNLOCK_IRQRESTORE) \
     $(wildcard include/config/INLINE_WRITE_UNLOCK_IRQRESTORE) \
-  arch/x86/include/asm/delay.h \
-  include/asm-generic/delay.h \
-  include/linux/interrupt.h \
-    $(wildcard include/config/IRQ_FORCED_THREADING) \
-    $(wildcard include/config/GENERIC_IRQ_PROBE) \
-    $(wildcard include/config/IRQ_TIMINGS) \
-  include/linux/irqreturn.h \
-  include/linux/irqnr.h \
-  include/uapi/linux/irqnr.h \
-  include/linux/hardirq.h \
-  include/linux/context_tracking_state.h \
-    $(wildcard include/config/CONTEXT_TRACKING_USER) \
-    $(wildcard include/config/CONTEXT_TRACKING) \
-    $(wildcard include/config/CONTEXT_TRACKING_IDLE) \
+  include/linux/energy_model.h \
+    $(wildcard include/config/SCHED_DEBUG) \
+  include/linux/kobject.h \
+    $(wildcard include/config/UEVENT_HELPER) \
+    $(wildcard include/config/DEBUG_KOBJECT_RELEASE) \
+  include/linux/sysfs.h \
+    $(wildcard include/config/SYSFS) \
+  include/linux/kernfs.h \
+    $(wildcard include/config/KERNFS) \
+  include/linux/mutex.h \
+  include/linux/debug_locks.h \
+  include/linux/idr.h \
+  include/linux/radix-tree.h \
   include/linux/percpu.h \
     $(wildcard include/config/MODULES) \
     $(wildcard include/config/RANDOM_KMALLOC_CACHES) \
@@ -631,60 +638,6 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
     $(wildcard include/config/DEBUG_VM) \
     $(wildcard include/config/DEBUG_VM_IRQSOFF) \
     $(wildcard include/config/DEBUG_VM_PGFLAGS) \
-  include/linux/context_tracking_irq.h \
-  include/linux/ftrace_irq.h \
-    $(wildcard include/config/HWLAT_TRACER) \
-    $(wildcard include/config/OSNOISE_TRACER) \
-  include/linux/vtime.h \
-    $(wildcard include/config/VIRT_CPU_ACCOUNTING) \
-    $(wildcard include/config/IRQ_TIME_ACCOUNTING) \
-  arch/x86/include/asm/hardirq.h \
-    $(wildcard include/config/KVM_INTEL) \
-    $(wildcard include/config/X86_LOCAL_APIC) \
-    $(wildcard include/config/KVM) \
-    $(wildcard include/config/X86_THERMAL_VECTOR) \
-    $(wildcard include/config/X86_MCE_THRESHOLD) \
-    $(wildcard include/config/X86_MCE_AMD) \
-    $(wildcard include/config/X86_HV_CALLBACK_VECTOR) \
-    $(wildcard include/config/HYPERV) \
-    $(wildcard include/config/X86_POSTED_MSI) \
-  include/linux/hrtimer.h \
-    $(wildcard include/config/HIGH_RES_TIMERS) \
-    $(wildcard include/config/TIME_LOW_RES) \
-    $(wildcard include/config/TIMERFD) \
-    $(wildcard include/config/DEBUG_OBJECTS_TIMERS) \
-  include/linux/hrtimer_defs.h \
-  include/linux/ktime.h \
-  include/linux/jiffies.h \
-  include/linux/time.h \
-  include/linux/time64.h \
-  include/vdso/time64.h \
-  include/uapi/linux/time.h \
-  include/linux/time32.h \
-  include/linux/timex.h \
-  include/uapi/linux/timex.h \
-  arch/x86/include/asm/timex.h \
-    $(wildcard include/config/X86_TSC) \
-  arch/x86/include/asm/tsc.h \
-  arch/x86/include/asm/msr.h \
-    $(wildcard include/config/TRACEPOINTS) \
-  arch/x86/include/uapi/asm/msr.h \
-  include/uapi/linux/ioctl.h \
-  arch/x86/include/generated/uapi/asm/ioctl.h \
-  include/asm-generic/ioctl.h \
-  include/uapi/asm-generic/ioctl.h \
-  arch/x86/include/asm/shared/msr.h \
-  include/linux/tracepoint-defs.h \
-  include/vdso/time32.h \
-  include/vdso/time.h \
-  include/vdso/jiffies.h \
-  include/generated/timeconst.h \
-  include/vdso/ktime.h \
-  include/linux/timekeeping.h \
-    $(wildcard include/config/GENERIC_CMOS_UPDATE) \
-  include/linux/clocksource_ids.h \
-  include/linux/timerqueue.h \
-  include/linux/rbtree.h \
   include/linux/rcupdate.h \
     $(wildcard include/config/TINY_RCU) \
     $(wildcard include/config/RCU_STRICT_GRACE_PERIOD) \
@@ -698,62 +651,9 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
     $(wildcard include/config/DEBUG_OBJECTS_RCU_HEAD) \
     $(wildcard include/config/PROVE_RCU) \
     $(wildcard include/config/ARCH_WEAK_RELEASE_ACQUIRE) \
+  include/linux/context_tracking_irq.h \
+    $(wildcard include/config/CONTEXT_TRACKING_IDLE) \
   include/linux/rcutree.h \
-  include/linux/seqlock.h \
-  include/linux/mutex.h \
-  include/linux/debug_locks.h \
-  include/linux/timer.h \
-  include/linux/debugobjects.h \
-    $(wildcard include/config/DEBUG_OBJECTS) \
-    $(wildcard include/config/DEBUG_OBJECTS_FREE) \
-  include/linux/kref.h \
-  include/linux/refcount.h \
-  include/linux/workqueue.h \
-    $(wildcard include/config/DEBUG_OBJECTS_WORK) \
-    $(wildcard include/config/FREEZER) \
-    $(wildcard include/config/SYSFS) \
-    $(wildcard include/config/WQ_WATCHDOG) \
-  include/linux/workqueue_types.h \
-  arch/x86/include/asm/irq.h \
-  arch/x86/include/asm/apicdef.h \
-  arch/x86/include/asm/irq_vectors.h \
-    $(wildcard include/config/X86_IO_APIC) \
-    $(wildcard include/config/PCI_MSI) \
-  arch/x86/include/asm/sections.h \
-  include/asm-generic/sections.h \
-    $(wildcard include/config/HAVE_FUNCTION_DESCRIPTORS) \
-  arch/x86/include/asm/extable.h \
-    $(wildcard include/config/BPF_JIT) \
-  include/linux/device.h \
-    $(wildcard include/config/HAS_IOMEM) \
-    $(wildcard include/config/GENERIC_MSI_IRQ) \
-    $(wildcard include/config/ENERGY_MODEL) \
-    $(wildcard include/config/PINCTRL) \
-    $(wildcard include/config/DMA_OPS) \
-    $(wildcard include/config/DMA_DECLARE_COHERENT) \
-    $(wildcard include/config/DMA_CMA) \
-    $(wildcard include/config/SWIOTLB) \
-    $(wildcard include/config/SWIOTLB_DYNAMIC) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_DEVICE) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU_ALL) \
-    $(wildcard include/config/DMA_OPS_BYPASS) \
-    $(wildcard include/config/DMA_NEED_SYNC) \
-    $(wildcard include/config/PM_SLEEP) \
-    $(wildcard include/config/OF) \
-    $(wildcard include/config/DEVTMPFS) \
-  include/linux/dev_printk.h \
-  include/linux/ratelimit.h \
-  include/linux/energy_model.h \
-    $(wildcard include/config/SCHED_DEBUG) \
-  include/linux/kobject.h \
-    $(wildcard include/config/UEVENT_HELPER) \
-    $(wildcard include/config/DEBUG_KOBJECT_RELEASE) \
-  include/linux/sysfs.h \
-  include/linux/kernfs.h \
-    $(wildcard include/config/KERNFS) \
-  include/linux/idr.h \
-  include/linux/radix-tree.h \
   include/linux/xarray.h \
     $(wildcard include/config/XARRAY_MULTI) \
   include/linux/gfp.h \
@@ -781,10 +681,17 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   include/linux/list_nulls.h \
   include/linux/wait.h \
+  include/linux/seqlock.h \
   include/linux/nodemask.h \
   include/linux/random.h \
     $(wildcard include/config/VMGENID) \
   include/uapi/linux/random.h \
+  include/uapi/linux/ioctl.h \
+  arch/x86/include/generated/uapi/asm/ioctl.h \
+  include/asm-generic/ioctl.h \
+  include/uapi/asm-generic/ioctl.h \
+  include/linux/irqnr.h \
+  include/uapi/linux/irqnr.h \
   include/linux/prandom.h \
   include/linux/once.h \
   include/linux/pageblock-flags.h \
@@ -806,6 +713,9 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
   include/linux/auxvec.h \
   include/uapi/linux/auxvec.h \
   arch/x86/include/uapi/asm/auxvec.h \
+  include/linux/kref.h \
+  include/linux/refcount.h \
+  include/linux/rbtree.h \
   include/linux/maple_tree.h \
     $(wildcard include/config/MAPLE_RCU_DISABLED) \
     $(wildcard include/config/DEBUG_MAPLE_TREE) \
@@ -821,6 +731,41 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
   include/linux/srcu.h \
     $(wildcard include/config/TINY_SRCU) \
     $(wildcard include/config/NEED_SRCU_NMI_SAFE) \
+  include/linux/workqueue.h \
+    $(wildcard include/config/DEBUG_OBJECTS_WORK) \
+    $(wildcard include/config/FREEZER) \
+    $(wildcard include/config/WQ_WATCHDOG) \
+  include/linux/timer.h \
+    $(wildcard include/config/DEBUG_OBJECTS_TIMERS) \
+  include/linux/ktime.h \
+  include/linux/jiffies.h \
+  include/linux/time.h \
+  include/linux/time64.h \
+  include/vdso/time64.h \
+  include/uapi/linux/time.h \
+  include/linux/time32.h \
+  include/linux/timex.h \
+  include/uapi/linux/timex.h \
+  arch/x86/include/asm/timex.h \
+    $(wildcard include/config/X86_TSC) \
+  arch/x86/include/asm/tsc.h \
+  arch/x86/include/asm/msr.h \
+    $(wildcard include/config/TRACEPOINTS) \
+  arch/x86/include/uapi/asm/msr.h \
+  arch/x86/include/asm/shared/msr.h \
+  include/linux/tracepoint-defs.h \
+  include/vdso/time32.h \
+  include/vdso/time.h \
+  include/vdso/jiffies.h \
+  include/generated/timeconst.h \
+  include/vdso/ktime.h \
+  include/linux/timekeeping.h \
+    $(wildcard include/config/GENERIC_CMOS_UPDATE) \
+  include/linux/clocksource_ids.h \
+  include/linux/debugobjects.h \
+    $(wildcard include/config/DEBUG_OBJECTS) \
+    $(wildcard include/config/DEBUG_OBJECTS_FREE) \
+  include/linux/workqueue_types.h \
   include/linux/rcu_segcblist.h \
   include/linux/srcutree.h \
   include/linux/rcu_node_tree.h \
@@ -851,12 +796,14 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
     $(wildcard include/config/ACPI_CPPC_LIB) \
     $(wildcard include/config/GENERIC_ARCH_TOPOLOGY) \
   arch/x86/include/asm/topology.h \
+    $(wildcard include/config/X86_LOCAL_APIC) \
     $(wildcard include/config/SCHED_MC_PRIO) \
   arch/x86/include/asm/mpspec.h \
     $(wildcard include/config/EISA) \
     $(wildcard include/config/X86_MPPARSE) \
   arch/x86/include/asm/mpspec_def.h \
   arch/x86/include/asm/x86_init.h \
+  arch/x86/include/asm/apicdef.h \
   include/asm-generic/topology.h \
   include/linux/cpu_smt.h \
     $(wildcard include/config/HOTPLUG_SMT) \
@@ -890,9 +837,17 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
   include/linux/pm.h \
     $(wildcard include/config/VT_CONSOLE_SLEEP) \
     $(wildcard include/config/CXL_SUSPEND) \
+    $(wildcard include/config/PM) \
     $(wildcard include/config/PM_CLK) \
     $(wildcard include/config/PM_GENERIC_DOMAINS) \
+  include/linux/hrtimer.h \
+    $(wildcard include/config/HIGH_RES_TIMERS) \
+    $(wildcard include/config/TIME_LOW_RES) \
+    $(wildcard include/config/TIMERFD) \
+  include/linux/hrtimer_defs.h \
+  include/linux/timerqueue.h \
   include/linux/device/bus.h \
+    $(wildcard include/config/ACPI) \
   include/linux/device/class.h \
   include/linux/device/driver.h \
   include/linux/module.h \
@@ -1015,6 +970,8 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
     $(wildcard include/config/X86_INTEL_USERCOPY) \
   include/linux/mmap_lock.h \
   arch/x86/include/asm/smap.h \
+  arch/x86/include/asm/extable.h \
+    $(wildcard include/config/BPF_JIT) \
   arch/x86/include/asm/tlbflush.h \
   include/linux/mmu_notifier.h \
   include/linux/interval_tree.h \
@@ -1036,6 +993,7 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
   arch/x86/include/asm/pgtable_64.h \
   arch/x86/include/asm/fixmap.h \
     $(wildcard include/config/PROVIDE_OHCI1394_DMA_INIT) \
+    $(wildcard include/config/X86_IO_APIC) \
     $(wildcard include/config/PCI_MMCONFIG) \
     $(wildcard include/config/ACPI_APEI_GHES) \
     $(wildcard include/config/INTEL_TXT) \
@@ -1061,6 +1019,7 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
     $(wildcard include/config/RTC_CLASS) \
   include/linux/rcu_sync.h \
   include/linux/delayed_call.h \
+  include/linux/uuid.h \
   include/linux/errseq.h \
   include/linux/ioprio.h \
   include/linux/sched/rt.h \
@@ -1127,266 +1086,55 @@ deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceC
     $(wildcard include/config/MODULES_USE_ELF_RELA) \
   arch/x86/include/asm/device.h \
   include/linux/pm_wakeup.h \
+  include/linux/usb.h \
+    $(wildcard include/config/USB_MON) \
+    $(wildcard include/config/USB_LED_TRIG) \
+  include/linux/mod_devicetable.h \
+  include/uapi/linux/mei.h \
+  include/uapi/linux/mei_uuid.h \
+  include/linux/usb/ch9.h \
+  include/uapi/linux/usb/ch9.h \
+  include/linux/delay.h \
+  arch/x86/include/asm/delay.h \
+  include/asm-generic/delay.h \
+  include/linux/interrupt.h \
+    $(wildcard include/config/IRQ_FORCED_THREADING) \
+    $(wildcard include/config/GENERIC_IRQ_PROBE) \
+    $(wildcard include/config/IRQ_TIMINGS) \
+  include/linux/irqreturn.h \
+  include/linux/hardirq.h \
+  include/linux/context_tracking_state.h \
+    $(wildcard include/config/CONTEXT_TRACKING_USER) \
+    $(wildcard include/config/CONTEXT_TRACKING) \
+  include/linux/ftrace_irq.h \
+    $(wildcard include/config/HWLAT_TRACER) \
+    $(wildcard include/config/OSNOISE_TRACER) \
+  include/linux/vtime.h \
+    $(wildcard include/config/VIRT_CPU_ACCOUNTING) \
+    $(wildcard include/config/IRQ_TIME_ACCOUNTING) \
+  arch/x86/include/asm/hardirq.h \
+    $(wildcard include/config/KVM_INTEL) \
+    $(wildcard include/config/KVM) \
+    $(wildcard include/config/X86_THERMAL_VECTOR) \
+    $(wildcard include/config/X86_MCE_THRESHOLD) \
+    $(wildcard include/config/X86_MCE_AMD) \
+    $(wildcard include/config/X86_HV_CALLBACK_VECTOR) \
+    $(wildcard include/config/HYPERV) \
+    $(wildcard include/config/X86_POSTED_MSI) \
+  arch/x86/include/asm/irq.h \
+  arch/x86/include/asm/irq_vectors.h \
+    $(wildcard include/config/PCI_MSI) \
+  arch/x86/include/asm/sections.h \
+  include/asm-generic/sections.h \
+    $(wildcard include/config/HAVE_FUNCTION_DESCRIPTORS) \
   include/linux/pm_runtime.h \
-  include/linux/hid.h \
-    $(wildcard include/config/HID_BATTERY_STRENGTH) \
-    $(wildcard include/config/HID_BPF) \
-    $(wildcard include/config/HID_PID) \
-  include/linux/input.h \
-  include/uapi/linux/input.h \
-  include/uapi/linux/input-event-codes.h \
-  include/linux/power_supply.h \
-    $(wildcard include/config/THERMAL) \
-    $(wildcard include/config/LEDS_TRIGGERS) \
-    $(wildcard include/config/POWER_SUPPLY) \
-    $(wildcard include/config/POWER_SUPPLY_HWMON) \
-  include/linux/leds.h \
-    $(wildcard include/config/LEDS_BRIGHTNESS_HW_CHANGED) \
-    $(wildcard include/config/LEDS_TRIGGER_DISK) \
-    $(wildcard include/config/LEDS_TRIGGER_MTD) \
-    $(wildcard include/config/LEDS_TRIGGER_CAMERA) \
-    $(wildcard include/config/LEDS_GPIO_REGISTER) \
-    $(wildcard include/config/LEDS_TRIGGER_CPU) \
-  include/dt-bindings/leds/common.h \
-  include/uapi/linux/hid.h \
-  include/linux/hid_bpf.h \
-  include/linux/bpf.h \
-    $(wildcard include/config/FINEIBT) \
-    $(wildcard include/config/CGROUP_BPF) \
-    $(wildcard include/config/BPF_LSM) \
-    $(wildcard include/config/BPF_JIT_ALWAYS_ON) \
-    $(wildcard include/config/INET) \
-  include/uapi/linux/bpf.h \
-    $(wildcard include/config/BPF_LIRC_MODE2) \
-    $(wildcard include/config/EFFICIENT_UNALIGNED_ACCESS) \
-    $(wildcard include/config/CGROUP_NET_CLASSID) \
-    $(wildcard include/config/IP_ROUTE_CLASSID) \
-    $(wildcard include/config/BPF_KPROBE_OVERRIDE) \
-    $(wildcard include/config/XFRM) \
-    $(wildcard include/config/SOCK_CGROUP_DATA) \
-    $(wildcard include/config/IPV6) \
-  include/uapi/linux/bpf_common.h \
-  include/uapi/linux/filter.h \
-  include/linux/file.h \
-  include/linux/kallsyms.h \
-    $(wildcard include/config/KALLSYMS_ALL) \
-  include/linux/mm.h \
-    $(wildcard include/config/HAVE_ARCH_MMAP_RND_BITS) \
-    $(wildcard include/config/HAVE_ARCH_MMAP_RND_COMPAT_BITS) \
-    $(wildcard include/config/ARCH_USES_HIGH_VMA_FLAGS) \
-    $(wildcard include/config/ARCH_HAS_PKEYS) \
-    $(wildcard include/config/PPC) \
-    $(wildcard include/config/X86) \
-    $(wildcard include/config/PARISC) \
-    $(wildcard include/config/SPARC64) \
-    $(wildcard include/config/ARM64_MTE) \
-    $(wildcard include/config/HAVE_ARCH_USERFAULTFD_MINOR) \
-    $(wildcard include/config/SHMEM) \
-    $(wildcard include/config/MIGRATION) \
-    $(wildcard include/config/ARCH_HAS_GIGANTIC_PAGE) \
-    $(wildcard include/config/ARCH_HAS_PTE_SPECIAL) \
-    $(wildcard include/config/HIGHPTE) \
-    $(wildcard include/config/DEBUG_VM_RB) \
-    $(wildcard include/config/PAGE_POISONING) \
-    $(wildcard include/config/INIT_ON_ALLOC_DEFAULT_ON) \
-    $(wildcard include/config/INIT_ON_FREE_DEFAULT_ON) \
-    $(wildcard include/config/DEBUG_PAGEALLOC) \
-    $(wildcard include/config/ARCH_WANT_OPTIMIZE_DAX_VMEMMAP) \
-    $(wildcard include/config/HUGETLBFS) \
-    $(wildcard include/config/MAPPING_DIRTY_HELPERS) \
-  include/linux/pgalloc_tag.h \
-  include/linux/page_ext.h \
-  include/linux/stacktrace.h \
-    $(wildcard include/config/ARCH_STACKWALK) \
-    $(wildcard include/config/STACKTRACE) \
-    $(wildcard include/config/HAVE_RELIABLE_STACKTRACE) \
-  include/linux/page_ref.h \
-    $(wildcard include/config/DEBUG_PAGE_REF) \
-  include/linux/sizes.h \
-  include/linux/pgtable.h \
-    $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
-    $(wildcard include/config/ARCH_HAS_HW_PTE_YOUNG) \
-    $(wildcard include/config/GUP_GET_PXX_LOW_HIGH) \
-    $(wildcard include/config/ARCH_WANT_PMD_MKWRITE) \
-    $(wildcard include/config/HAVE_ARCH_HUGE_VMAP) \
-    $(wildcard include/config/X86_ESPFIX64) \
-  include/linux/memremap.h \
-    $(wildcard include/config/DEVICE_PRIVATE) \
-    $(wildcard include/config/PCI_P2PDMA) \
-  include/linux/huge_mm.h \
-    $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
-  include/linux/vmstat.h \
-    $(wildcard include/config/VM_EVENT_COUNTERS) \
-    $(wildcard include/config/DEBUG_TLBFLUSH) \
-    $(wildcard include/config/PER_VMA_LOCK_STATS) \
-  include/linux/vm_event_item.h \
-    $(wildcard include/config/MEMORY_BALLOON) \
-    $(wildcard include/config/BALLOON_COMPACTION) \
-  include/linux/bpfptr.h \
-  include/linux/sockptr.h \
-  include/linux/btf.h \
-  include/linux/bsearch.h \
-  include/linux/btf_ids.h \
-  include/uapi/linux/btf.h \
-  include/linux/rcupdate_trace.h \
-    $(wildcard include/config/TASKS_TRACE_RCU_READ_MB) \
-  include/linux/static_call.h \
-  include/linux/cpu.h \
-    $(wildcard include/config/GENERIC_CPU_DEVICES) \
-    $(wildcard include/config/PM_SLEEP_SMP) \
-    $(wildcard include/config/PM_SLEEP_SMP_NONZERO_CPU) \
-    $(wildcard include/config/ARCH_HAS_CPU_FINALIZE_INIT) \
-    $(wildcard include/config/CPU_MITIGATIONS) \
-  include/linux/node.h \
-    $(wildcard include/config/HMEM_REPORTING) \
-  include/linux/cpuhotplug.h \
-    $(wildcard include/config/HOTPLUG_CORE_SYNC_DEAD) \
-  include/linux/cpuhplock.h \
-  arch/x86/include/asm/static_call.h \
-  arch/x86/include/asm/text-patching.h \
-    $(wildcard include/config/UML_X86) \
-  include/linux/memcontrol.h \
-  include/linux/cgroup.h \
-    $(wildcard include/config/DEBUG_CGROUP_REF) \
-    $(wildcard include/config/CGROUP_CPUACCT) \
-    $(wildcard include/config/CGROUP_DATA) \
-  include/uapi/linux/cgroupstats.h \
-  include/uapi/linux/taskstats.h \
-  include/linux/seq_file.h \
-  include/linux/string_helpers.h \
-  include/linux/ctype.h \
-  include/linux/string_choices.h \
-  include/linux/ns_common.h \
-  include/linux/nsproxy.h \
-  include/linux/user_namespace.h \
-    $(wildcard include/config/INOTIFY_USER) \
-    $(wildcard include/config/FANOTIFY) \
-    $(wildcard include/config/BINFMT_MISC) \
-    $(wildcard include/config/PERSISTENT_KEYRINGS) \
-  include/linux/kernel_stat.h \
-    $(wildcard include/config/GENERIC_IRQ_STAT_SNAPSHOT) \
-  include/linux/cgroup-defs.h \
-    $(wildcard include/config/CGROUP_NET_PRIO) \
-  include/linux/u64_stats_sync.h \
-  arch/x86/include/generated/asm/local64.h \
-  include/asm-generic/local64.h \
-  arch/x86/include/asm/local.h \
-  include/linux/bpf-cgroup-defs.h \
-  include/linux/psi_types.h \
+  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/hal_adaptor.h \
+  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_hal_dev.h \
   include/linux/kthread.h \
-  include/linux/cgroup_subsys.h \
-    $(wildcard include/config/CGROUP_DEVICE) \
-    $(wildcard include/config/CGROUP_FREEZER) \
-    $(wildcard include/config/CGROUP_PERF) \
-    $(wildcard include/config/CGROUP_HUGETLB) \
-    $(wildcard include/config/CGROUP_PIDS) \
-    $(wildcard include/config/CGROUP_RDMA) \
-    $(wildcard include/config/CGROUP_MISC) \
-    $(wildcard include/config/CGROUP_DEBUG) \
-  include/linux/cgroup_refcnt.h \
-  include/linux/page_counter.h \
-  include/linux/vmpressure.h \
-  include/linux/eventfd.h \
-  include/uapi/linux/eventfd.h \
-  include/linux/writeback.h \
-  include/linux/flex_proportions.h \
-  include/linux/backing-dev-defs.h \
-    $(wildcard include/config/DEBUG_FS) \
-  include/linux/blk_types.h \
-    $(wildcard include/config/FAIL_MAKE_REQUEST) \
-    $(wildcard include/config/BLK_CGROUP_IOCOST) \
-    $(wildcard include/config/BLK_INLINE_ENCRYPTION) \
-    $(wildcard include/config/BLK_DEV_INTEGRITY) \
-  include/linux/bvec.h \
-  include/linux/highmem.h \
-  include/linux/cacheflush.h \
-  arch/x86/include/asm/cacheflush.h \
-  include/asm-generic/cacheflush.h \
-  include/linux/kmsan.h \
-  include/linux/dma-direction.h \
-  include/linux/highmem-internal.h \
-  include/linux/pagevec.h \
-  include/linux/bio.h \
-  include/linux/mempool.h \
-  include/linux/cfi.h \
-    $(wildcard include/config/CFI_CLANG) \
-  arch/x86/include/asm/cfi.h \
-  include/linux/bpf_types.h \
-    $(wildcard include/config/NETFILTER_BPF_LINK) \
-    $(wildcard include/config/XDP_SOCKETS) \
-  include/drm/drm_modes.h \
-  include/linux/hdmi.h \
-  include/drm/drm_mode_object.h \
-  include/drm/drm_lease.h \
-  include/drm/drm_connector.h \
-  include/drm/drm_util.h \
-    $(wildcard include/config/DRM_EXPORT_FOR_TESTS) \
-  include/linux/kgdb.h \
-    $(wildcard include/config/HAVE_ARCH_KGDB) \
-    $(wildcard include/config/KGDB) \
-    $(wildcard include/config/SERIAL_KGDB_NMI) \
-    $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
-  include/linux/kprobes.h \
-    $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
-    $(wildcard include/config/KPROBES_SANITY_TEST) \
-    $(wildcard include/config/OPTPROBES) \
-    $(wildcard include/config/KPROBES_ON_FTRACE) \
-  include/linux/ftrace.h \
-    $(wildcard include/config/HAVE_FUNCTION_GRAPH_RETVAL) \
-    $(wildcard include/config/FUNCTION_TRACER) \
-    $(wildcard include/config/DYNAMIC_FTRACE) \
-    $(wildcard include/config/HAVE_DYNAMIC_FTRACE_WITH_ARGS) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_REGS) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_ARGS) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_DIRECT_CALLS) \
-    $(wildcard include/config/STACK_TRACER) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_CALL_OPS) \
-    $(wildcard include/config/FUNCTION_GRAPH_RETVAL) \
-    $(wildcard include/config/FUNCTION_PROFILER) \
-    $(wildcard include/config/FTRACE_SYSCALLS) \
-  include/linux/trace_recursion.h \
-    $(wildcard include/config/FTRACE_RECORD_RECURSION) \
-    $(wildcard include/config/FTRACE_VALIDATE_RCU_IS_WATCHING) \
-  include/linux/trace_clock.h \
-  arch/x86/include/asm/trace_clock.h \
-  include/linux/ptrace.h \
-  include/linux/pid_namespace.h \
-    $(wildcard include/config/MEMFD_CREATE) \
-    $(wildcard include/config/PID_NS) \
-  include/uapi/linux/ptrace.h \
-  include/linux/seccomp.h \
-    $(wildcard include/config/HAVE_ARCH_SECCOMP_FILTER) \
-    $(wildcard include/config/SECCOMP_FILTER) \
-    $(wildcard include/config/CHECKPOINT_RESTORE) \
-    $(wildcard include/config/SECCOMP_CACHE_DEBUG) \
-  include/uapi/linux/seccomp.h \
-  arch/x86/include/asm/seccomp.h \
-  include/asm-generic/seccomp.h \
-  arch/x86/include/asm/ftrace.h \
-    $(wildcard include/config/HAVE_FENTRY) \
-  include/linux/objpool.h \
-  include/linux/rethook.h \
-  arch/x86/include/asm/kprobes.h \
-  include/asm-generic/kprobes.h \
-  arch/x86/include/asm/insn.h \
-  arch/x86/include/asm/inat.h \
-  arch/x86/include/asm/inat_types.h \
-  arch/x86/include/asm/kgdb.h \
-  include/drm/drm_property.h \
-  include/uapi/drm/drm_mode.h \
-  include/uapi/drm/drm.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/usb_hal/usb_hal_chip.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/usb_hal/usb_hal_edid.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/usb_hal/ms9132.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/usb_hal/hal_adaptor.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/usb_hal/ms9132_hid.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_usb_interface.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/msdisp_usb_drv.h \
-  include/generated/uapi/linux/version.h \
-  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/usb_hal/usb_hal_interface.h \
+  /home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_hal_interface.h \
 
-/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o: $(deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o)
+/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_hal_sysfs.o: $(deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_hal_sysfs.o)
 
-$(deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o):
+$(deps_/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_hal_sysfs.o):
 
-/home/iamphantasm0/dev/USBDisplayLinux/usb_display/MS91xx_Linux_Drm_SourceCode_V3.0.2.7/drm/ms9132_hal.o: $(wildcard ./tools/objtool/objtool)
+/home/iamphantasm0/dev/USBDisplayLinux/usb_display/FrameBuffer_SourceCode_V3.0.2.9/fbdev/../usb_hal/usb_hal_sysfs.o: $(wildcard ./tools/objtool/objtool)
